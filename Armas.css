@@ -1,0 +1,35 @@
+
+.todasArmas{
+    display: flex;
+    align-items: center;
+    background-color: var(--tercer-color);
+    max-width: 1000px;
+
+    width: 80%;
+    margin: 100px auto;
+    padding: 30px;
+}
+
+.contenedor3{
+    margin: 10px 20px;
+    box-shadow:0 4px 8px 0 var(--secondary-color), 0 6px 20px 0 var(--tercer-color);
+    float:left;
+    width: 350px;
+}
+
+#arma{
+    width:100%;
+    height:auto;
+}
+
+div.contenedor3:hover{
+    border:1px solid pink;
+    transform:rotate(-3deg);
+}
+
+#txtArma{
+    text-align:center;
+    text-shadow: 2px 2px 5px pink;
+    padding:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,93 @@
+.container {
+    width: 80%;
+    margin: 100px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+                 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-preguntas {
+    box-shadow: 0 0 15px -1px var(--secondary-color);
+    padding: 30px;
+}
+
+.container-preguntas .title-preguntas {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'FuenteKitchenMania';
+    margin-bottom: 30px;
+}
+
+.container-preguntas .item-preguntas {
+    box-shadow: 0 0 15px -1px var(--secondary-color);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.container-preguntas .item-preguntas .pregunta {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--tercer-color);
+    padding: 20px 20px 20px 80px;
+}
+
+.container-preguntas .item-preguntas .pregunta .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px -1px var(--secondary-color);
+    width: 40px;
+    height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.container-preguntas .item-preguntas .pregunta .more:hover {
+    box-shadow: 0 0 15px -1px rgb(136, 35, 69);
+}
+
+.container-preguntas .item-preguntas .pregunta span {
+    position: absolute;
+    left: 10px;
+    font-size: 5rem;
+    top: 10px;
+    opacity: 0.2;
+    font-family:'FuenteKitchenMania'
+
+}
+
+/* PANEL DESPLEGABLE */
+.container-preguntas .item-preguntas .respuesta {
+    position: relative;
+    padding: 0 20px 0 80px;
+    overflow: hidden;
+    height: 0;
+    transition: height 0.4s ease;
+}
+
+.container-preguntas .item-preguntas .respuesta p {
+    padding: 5px;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+.container-preguntas .item-preguntas .respuesta span {
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    left: 10px;
+    font-size: 5rem;
+    top: -10px;
+    opacity: 0.3;
+    font-family:'FuenteKitchenMania'
+}
+#asideText{
+    margin-top: 1%;
+    font-family: 'FuenteKitchenMania';
+    font-size: 400%;
+}
